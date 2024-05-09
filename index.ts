@@ -1,7 +1,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.bgMagentaBright("\tWelcom to Quiz"));
+console.log(chalk.bgMagentaBright("\tWelcome to Quiz"));
 
 let marks = 10;
 const quiz: {
