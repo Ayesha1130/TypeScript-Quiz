@@ -1,12 +1,12 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
-console.log(chalk.bgMagentaBright("\tWelcom to Quiz"));
+console.log(chalk.bgMagentaBright("\tWelcome to Quiz"));
 let marks = 10;
 const quiz = await inquirer.prompt([
     {
         name: "Question_1",
         type: "list",
-        message: "What is TypeScript and how does it relate to JavaScript?",
+        message: "No 1: What is TypeScript and how does it relate to JavaScript?",
         choices: [
             "A: TypeScript is a superset of JavaScript that adds static typing",
             "B: TypeScript is a completely different language from JavaScript",
@@ -17,7 +17,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_2",
         type: "list",
-        message: "Benefits of TypeScript over plain JavaScript?",
+        message: "No 2: Benefits of TypeScript over plain JavaScript?",
         choices: ["A) Performance",
             "B) Security",
             "C) Tooling",
@@ -26,7 +26,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_3",
         type: "list",
-        message: "What is a type annotation in TypeScript?",
+        message: "No 3: What is a type annotation in TypeScript?",
         choices: ["a) Comment",
             "B) Declare",
             "C) Syntax",
@@ -35,7 +35,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_4",
         type: "list",
-        message: "Difference between interfaces and classes in TypeScript?",
+        message: "No 4: Difference between interfaces and classes in TypeScript?",
         choices: ["A) Implementation",
             "B) Type checking",
             "C) Contracts",
@@ -44,7 +44,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_5",
         type: "list",
-        message: "Purpose of type inference in TypeScript?",
+        message: "No 5: Purpose of type inference in TypeScript?",
         choices: ["A) Enforce",
             "B) Automatic",
             "C) Remove",
@@ -53,7 +53,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_6",
         type: "list",
-        message: "Handling null and undefined in TypeScript?",
+        message: "No 6: Handling null and undefined in TypeScript?",
         choices: ["A) Nullable",
             "B) Strict",
             "C) Union",
@@ -62,7 +62,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_7",
         type: "list",
-        message: "What is the readonly modifier used for in TypeScript?",
+        message: "No 7: What is the readonly modifier used for in TypeScript?",
         choices: ["A) Once",
             "B) Prevent",
             "C) Immutable",
@@ -71,7 +71,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_8",
         type: "list",
-        message: "Using TypeScript with popular frameworks/libraries?",
+        message: "No 8:Using TypeScript with popular frameworks/libraries?",
         choices: ["A) Plugins",
             "B) Configuration",
             "C) Rewrite",
@@ -80,7 +80,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_9",
         type: "list",
-        message: "What is TypeScript and how does it relate to JavaScript?",
+        message: "No 9: What is TypeScript and how does it relate to JavaScript?",
         choices: ["A) Superset",
             "B) Different",
             "C) Subset",
@@ -89,7 +89,7 @@ const quiz = await inquirer.prompt([
     {
         name: "Question_10",
         type: "list",
-        message: "Basic data types in TypeScript?",
+        message: "No 10: Basic data types in TypeScript?",
         choices: ["A) Type",
             "B) Class",
             "C) Interface",
